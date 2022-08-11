@@ -1,5 +1,6 @@
 import { useState } from 'react';
 import { add } from 'date-fns';
+import image from './assets/logo2.jpg'
 
 import { Ticker } from 'components/Ticker';
 
@@ -19,6 +20,7 @@ function App() {
 
   return (
     <div className={ style.pageContainer }>
+    <img src={image} alt="Northern Coalition For Peter Obi" height={320} width={320} />
       <h2>Northern Coalition For Peter Obi</h2>
       <p>Site In Development</p>
       { tickerEl }
